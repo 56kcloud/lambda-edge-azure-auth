@@ -9,8 +9,14 @@
     "build": "npm install && cd build && npm install && cd .. && node build/build.js",
     "package": "./package.sh"
   },
-  "author": "Nick Shine",
-  "repository": "github:nickshine/lambda-edge-azure-auth",
+  "author": "56k.Cloud",
+  "repository": "github:56kcloud/lambda-edge-azure-auth",
+  "contributors": [
+    {
+      "name" : "Nick Shines",
+      "url" : "https://github.com/nickshine/lambda-edge-azure-auth"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
